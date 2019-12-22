@@ -1,12 +1,12 @@
-import React from 'react';
-import styles from './__ComponentName__.scss';
-import classNames from 'classnames/bind';
+import React from "react";
+import "./__ComponentName__.scss";
 
-const cx = classNames.bind(styles);
+const __ComponentName__ = () => {
+  return (
+    <div>
+      <div>__ComponentName__</div>
+    </div>
+  );
+};
 
-const __ComponentName__ = () => (
-  <div>
-    __ComponentName__
-  </div>
-);
 export default __ComponentName__;
